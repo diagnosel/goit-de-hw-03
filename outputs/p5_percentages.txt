@@ -1,0 +1,13 @@
+STEP 5 | denominator: total spending for ages 18-25
+Denominator: 1207.600000 | zero total: show null percentage
++-----------+------------+----------+
+|category   |total_amount|percentage|
++-----------+------------+----------+
+|Beauty     |41.400000   |3.43      |
+|Clothing   |245.000000  |20.29     |
+|Electronics|249.600000  |20.67     |
+|Home       |361.100000  |29.90     |
+|Sports     |310.500000  |25.71     |
++-----------+------------+----------+
+
+Sum of displayed percentages: 100.00

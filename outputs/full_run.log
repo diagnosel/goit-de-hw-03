@@ -1,0 +1,168 @@
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/10/09 21:21:44 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Python 3.12.4 | Spark 4.0.1 | Java 17.0.17
+STEP 1 | users | rows: 100 | first 8 rows
+Columns: user_id, name, age, email
+root
+ |-- user_id: integer (nullable = true)
+ |-- name: string (nullable = true)
+ |-- age: integer (nullable = true)
+ |-- email: string (nullable = true)
+
++-------+------+---+-----------------+
+|user_id|name  |age|email            |
++-------+------+---+-----------------+
+|1      |User_1|45 |user1@example.com|
+|2      |User_2|48 |user2@example.com|
+|3      |User_3|36 |user3@example.com|
+|4      |User_4|46 |user4@example.com|
+|5      |User_5|29 |user5@example.com|
+|6      |User_6|39 |user6@example.com|
+|7      |User_7|24 |user7@example.com|
+|8      |User_8|44 |user8@example.com|
++-------+------+---+-----------------+
+only showing top 8 rows
+STEP 1 | purchases | rows: 200 | first 8 rows
+Columns: purchase_id, user_id, product_id, date, quantity
+root
+ |-- purchase_id: integer (nullable = true)
+ |-- user_id: integer (nullable = true)
+ |-- product_id: integer (nullable = true)
+ |-- date: date (nullable = true)
+ |-- quantity: integer (nullable = true)
+
++-----------+-------+----------+----------+--------+
+|purchase_id|user_id|product_id|date      |quantity|
++-----------+-------+----------+----------+--------+
+|1          |52     |9         |2022-01-01|1       |
+|2          |93     |37        |2022-01-02|8       |
+|3          |15     |33        |2022-01-03|1       |
+|4          |72     |42        |2022-01-04|9       |
+|5          |61     |44        |2022-01-05|6       |
+|6          |21     |24        |2022-01-06|7       |
+|7          |83     |15        |2022-01-07|7       |
+|8          |87     |32        |2022-01-08|3       |
++-----------+-------+----------+----------+--------+
+only showing top 8 rows
+STEP 1 | products | rows: 50 | first 8 rows
+Columns: product_id, product_name, category, price
+root
+ |-- product_id: integer (nullable = true)
+ |-- product_name: string (nullable = true)
+ |-- category: string (nullable = true)
+ |-- price: decimal(18,6) (nullable = true)
+
++----------+------------+-----------+--------+
+|product_id|product_name|category   |price   |
++----------+------------+-----------+--------+
+|NULL      |Product_25  |Electronics|7.400000|
+|1         |Product_1   |Beauty     |8.300000|
+|2         |Product_2   |Home       |8.300000|
+|3         |Product_3   |Electronics|9.200000|
+|4         |Product_4   |Electronics|2.600000|
+|5         |Product_5   |Electronics|9.400000|
+|6         |Product_6   |Sports     |8.700000|
+|7         |Product_7   |Beauty     |8.200000|
++----------+------------+-----------+--------+
+only showing top 8 rows
+STEP 2 | users | before: 100 | after: 95 | removed: 5
+Empty cells: 5 | absent cells: 0 | whitespace-only cells: 0
+Dropped CSV line numbers: [31, 35, 82, 95, 100]
++-------+------+---+-----------------+
+|user_id|name  |age|email            |
++-------+------+---+-----------------+
+|1      |User_1|45 |user1@example.com|
+|2      |User_2|48 |user2@example.com|
+|3      |User_3|36 |user3@example.com|
+|4      |User_4|46 |user4@example.com|
+|5      |User_5|29 |user5@example.com|
+|6      |User_6|39 |user6@example.com|
+|7      |User_7|24 |user7@example.com|
+|8      |User_8|44 |user8@example.com|
++-------+------+---+-----------------+
+only showing top 8 rows
+STEP 2 | purchases | before: 200 | after: 195 | removed: 5
+Empty cells: 5 | absent cells: 0 | whitespace-only cells: 0
+Dropped CSV line numbers: [42, 51, 97, 151, 200]
++-----------+-------+----------+----------+--------+
+|purchase_id|user_id|product_id|date      |quantity|
++-----------+-------+----------+----------+--------+
+|1          |52     |9         |2022-01-01|1       |
+|2          |93     |37        |2022-01-02|8       |
+|3          |15     |33        |2022-01-03|1       |
+|4          |72     |42        |2022-01-04|9       |
+|5          |61     |44        |2022-01-05|6       |
+|6          |21     |24        |2022-01-06|7       |
+|7          |83     |15        |2022-01-07|7       |
+|8          |87     |32        |2022-01-08|3       |
++-----------+-------+----------+----------+--------+
+only showing top 8 rows
+STEP 2 | products | before: 50 | after: 47 | removed: 3
+Empty cells: 3 | absent cells: 1 | whitespace-only cells: 0
+Dropped CSV line numbers: [16, 26, 45]
++----------+------------+-----------+--------+
+|product_id|product_name|category   |price   |
++----------+------------+-----------+--------+
+|1         |Product_1   |Beauty     |8.300000|
+|2         |Product_2   |Home       |8.300000|
+|3         |Product_3   |Electronics|9.200000|
+|4         |Product_4   |Electronics|2.600000|
+|5         |Product_5   |Electronics|9.400000|
+|6         |Product_6   |Sports     |8.700000|
+|7         |Product_7   |Beauty     |8.200000|
+|8         |Product_8   |Sports     |1.000000|
++----------+------------+-----------+--------+
+only showing top 8 rows
+STEP 3 | all buyers | priced purchases: 187
+Unmatched purchase IDs (no clean product): [5, 7, 33, 74, 113, 115, 163, 185]
++-----------+------------+
+|category   |total_amount|
++-----------+------------+
+|Beauty     |459.900000  |
+|Clothing   |790.300000  |
+|Electronics|1174.800000 |
+|Home       |1523.500000 |
+|Sports     |1802.500000 |
++-----------+------------+
+
+Total spending: 5751.000000
+STEP 4 | ages 18 through 25 | purchases: 32
+User join: 187 before, 178 after
++-----------+------------+
+|category   |total_amount|
++-----------+------------+
+|Beauty     |41.400000   |
+|Clothing   |245.000000  |
+|Electronics|249.600000  |
+|Home       |361.100000  |
+|Sports     |310.500000  |
++-----------+------------+
+
+Total spending for ages 18-25: 1207.600000
+STEP 5 | denominator: total spending for ages 18-25
+Denominator: 1207.600000 | zero total: show null percentage
++-----------+------------+----------+
+|category   |total_amount|percentage|
++-----------+------------+----------+
+|Beauty     |41.400000   |3.43      |
+|Clothing   |245.000000  |20.29     |
+|Electronics|249.600000  |20.67     |
+|Home       |361.100000  |29.90     |
+|Sports     |310.500000  |25.71     |
++-----------+------------+----------+
+
+Sum of displayed percentages: 100.00
+STEP 6 | top 3 | amount descending, category ascending
++-----------+------------+----------+
+|category   |total_amount|percentage|
++-----------+------------+----------+
+|Home       |361.100000  |29.90     |
+|Sports     |310.500000  |25.71     |
+|Electronics|249.600000  |20.67     |
++-----------+------------+----------+
+
+PASS | independent CSV check: row counts, joins, category totals, shares, top 3, and 3 purchases
+PASS | all six steps checked against independent Python Decimal calculations

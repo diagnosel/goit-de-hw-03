@@ -1,0 +1,22 @@
+STEP 1 | purchases | rows: 200 | first 8 rows
+Columns: purchase_id, user_id, product_id, date, quantity
+root
+ |-- purchase_id: integer (nullable = true)
+ |-- user_id: integer (nullable = true)
+ |-- product_id: integer (nullable = true)
+ |-- date: date (nullable = true)
+ |-- quantity: integer (nullable = true)
+
++-----------+-------+----------+----------+--------+
+|purchase_id|user_id|product_id|date      |quantity|
++-----------+-------+----------+----------+--------+
+|1          |52     |9         |2022-01-01|1       |
+|2          |93     |37        |2022-01-02|8       |
+|3          |15     |33        |2022-01-03|1       |
+|4          |72     |42        |2022-01-04|9       |
+|5          |61     |44        |2022-01-05|6       |
+|6          |21     |24        |2022-01-06|7       |
+|7          |83     |15        |2022-01-07|7       |
+|8          |87     |32        |2022-01-08|3       |
++-----------+-------+----------+----------+--------+
+only showing top 8 rows

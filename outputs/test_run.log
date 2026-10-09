@@ -1,0 +1,52 @@
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/10/09 21:22:22 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+test_age_boundaries_are_inclusive (test_homework.SparkEdgeChecks.test_age_boundaries_are_inclusive) ... [local-venv]/lib/python3.12/site-packages/pyspark/python/lib/pyspark.zip/pyspark/daemon.py:161: DeprecationWarning: This process (pid=57033) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[python-install]/lib/python3.12/socket.py:779: ResourceWarning: unclosed <socket.socket fd=10, family=2, type=1, proto=6, laddr=('127.0.0.1', 52054), raddr=('127.0.0.1', 52053)>
+  self._sock = None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_null_empty_and_whitespace_are_missing (test_homework.SparkEdgeChecks.test_null_empty_and_whitespace_are_missing) ... [python-install]/lib/python3.12/socket.py:779: ResourceWarning: unclosed <socket.socket fd=10, family=2, type=1, proto=6, laddr=('127.0.0.1', 52060), raddr=('127.0.0.1', 52059)>
+  self._sock = None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_percentage_keeps_precision_before_display_rounding (test_homework.SparkEdgeChecks.test_percentage_keeps_precision_before_display_rounding) ... [python-install]/lib/python3.12/socket.py:779: ResourceWarning: unclosed <socket.socket fd=10, family=2, type=1, proto=6, laddr=('127.0.0.1', 52071), raddr=('127.0.0.1', 52070)>
+  self._sock = None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_quantity_times_decimal_price_stays_exact (test_homework.SparkEdgeChecks.test_quantity_times_decimal_price_stays_exact) ... [python-install]/lib/python3.12/socket.py:779: ResourceWarning: unclosed <socket.socket fd=10, family=2, type=1, proto=6, laddr=('127.0.0.1', 52077), raddr=('127.0.0.1', 52076)>
+  self._sock = None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_ranking_uses_exact_amount_and_stable_ties (test_homework.SparkEdgeChecks.test_ranking_uses_exact_amount_and_stable_ties) ... [python-install]/lib/python3.12/socket.py:779: ResourceWarning: unclosed <socket.socket fd=10, family=2, type=1, proto=6, laddr=('127.0.0.1', 52085), raddr=('127.0.0.1', 52084)>
+  self._sock = None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_zero_total_has_no_percentage (test_homework.SparkEdgeChecks.test_zero_total_has_no_percentage) ... [python-install]/lib/python3.12/socket.py:779: ResourceWarning: unclosed <socket.socket fd=10, family=2, type=1, proto=6, laddr=('127.0.0.1', 52087), raddr=('127.0.0.1', 52086)>
+  self._sock = None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+[python-install]/lib/python3.12/socket.py:779: ResourceWarning: unclosed <socket.socket fd=10, family=2, type=1, proto=6, laddr=('127.0.0.1', 52093), raddr=('127.0.0.1', 52092)>
+  self._sock = None
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_all_six_steps_have_execution_records (test_homework.SubmissionChecks.test_all_six_steps_have_execution_records) ... ok
+test_real_results_match_independent_decimal_totals (test_homework.SubmissionChecks.test_real_results_match_independent_decimal_totals) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 24.914s
+
+OK
+root
+ |-- category: string (nullable = true)
+ |-- total_amount: decimal(38,6) (nullable = true)
+ |-- percentage_raw: decimal(38,8) (nullable = true)
+ |-- percentage: decimal(33,2) (nullable = true)
+
++--------+------------+--------------+----------+
+|category|total_amount|percentage_raw|percentage|
++--------+------------+--------------+----------+
+|Beauty  |41.400000   |3.42828751    |3.43      |
++--------+------------+--------------+----------+
+

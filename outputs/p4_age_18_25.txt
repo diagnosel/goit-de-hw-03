@@ -1,0 +1,13 @@
+STEP 4 | ages 18 through 25 | purchases: 32
+User join: 187 before, 178 after
++-----------+------------+
+|category   |total_amount|
++-----------+------------+
+|Beauty     |41.400000   |
+|Clothing   |245.000000  |
+|Electronics|249.600000  |
+|Home       |361.100000  |
+|Sports     |310.500000  |
++-----------+------------+
+
+Total spending for ages 18-25: 1207.600000

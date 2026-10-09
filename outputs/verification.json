@@ -1,0 +1,20 @@
+{
+  "full_run_exit_code": 0,
+  "two_successful_runs_identical": true,
+  "compared_file_sha256": {
+    "p1_products.txt": "2348ab24fd7fe80078c720466bf2235dabffbcbe1eef6880dcf6e036fad25d52",
+    "p1_purchases.txt": "4400a8936388dda119631d214465550f2d7321e59189b726622201b700a6e523",
+    "p1_users.txt": "8d1c9113a4ce21b27968e6c9b772268f55df6e2c213c3a2f7eb31076061da27a",
+    "p2_products.txt": "8b0d1faee7a24d80b8feadde6dd8755d58d8e080ef95f779a22b76fec8773c46",
+    "p2_purchases.txt": "6f23c58ce15edd4e771dda4457917265bfb828d465840a64b0cb7e99ae7fd4c8",
+    "p2_users.txt": "3fca6c6acfce5152fa65694a8aa3eefc051a97c75423ed39f27ba69ab943b1c6",
+    "p3_categories.txt": "20ab6ebe14919c174cfe8bd3454e6eebfa9f7a50d6ac19426802db08868be961",
+    "p4_age_18_25.txt": "22f48cde0cc1b6ecc44e757ed488be829930c57557eea89b05c7b3a419d633d4",
+    "p5_percentages.txt": "c1a105a8879da27e65fb4b96339656a161c3796c843ef38207d03ef70925d547",
+    "p6_top3.txt": "1cf9390e8b6e5b481e2b407713238980f9b3a6e2f7f0cc4a0e16384da9df94bf",
+    "results.json": "b3be8ffd8dde0c3d079f5b85f657d5d5502cf1ce97fee7fb4bbd66f8837f10b2",
+    "audit.json": "baafa4186d7249ba3e6f73290d4a36b67e34d5a702c4d98e510ebaea209c3dfe",
+    "environment.json": "a2dc27c6fd854b7dc44e8f15e46ba8a9e7cadd90db19ccc77c5b8f13224e76bf"
+  },
+  "test_exit_code": 0
+}

@@ -1,0 +1,97 @@
+{
+  "p3": [
+    {
+      "category": "Beauty",
+      "total_amount": "459.900000"
+    },
+    {
+      "category": "Clothing",
+      "total_amount": "790.300000"
+    },
+    {
+      "category": "Electronics",
+      "total_amount": "1174.800000"
+    },
+    {
+      "category": "Home",
+      "total_amount": "1523.500000"
+    },
+    {
+      "category": "Sports",
+      "total_amount": "1802.500000"
+    }
+  ],
+  "p4": [
+    {
+      "category": "Beauty",
+      "total_amount": "41.400000"
+    },
+    {
+      "category": "Clothing",
+      "total_amount": "245.000000"
+    },
+    {
+      "category": "Electronics",
+      "total_amount": "249.600000"
+    },
+    {
+      "category": "Home",
+      "total_amount": "361.100000"
+    },
+    {
+      "category": "Sports",
+      "total_amount": "310.500000"
+    }
+  ],
+  "p5": [
+    {
+      "category": "Beauty",
+      "total_amount": "41.400000",
+      "percentage_raw": "3.42828751",
+      "percentage": "3.43"
+    },
+    {
+      "category": "Clothing",
+      "total_amount": "245.000000",
+      "percentage_raw": "20.28817489",
+      "percentage": "20.29"
+    },
+    {
+      "category": "Electronics",
+      "total_amount": "249.600000",
+      "percentage_raw": "20.66909573",
+      "percentage": "20.67"
+    },
+    {
+      "category": "Home",
+      "total_amount": "361.100000",
+      "percentage_raw": "29.90228553",
+      "percentage": "29.90"
+    },
+    {
+      "category": "Sports",
+      "total_amount": "310.500000",
+      "percentage_raw": "25.71215634",
+      "percentage": "25.71"
+    }
+  ],
+  "p6": [
+    {
+      "category": "Home",
+      "total_amount": "361.100000",
+      "percentage": "29.90"
+    },
+    {
+      "category": "Sports",
+      "total_amount": "310.500000",
+      "percentage": "25.71"
+    },
+    {
+      "category": "Electronics",
+      "total_amount": "249.600000",
+      "percentage": "20.67"
+    }
+  ],
+  "total_all": "5751.000000",
+  "total_18_25": "1207.600000"
+}

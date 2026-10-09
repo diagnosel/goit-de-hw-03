@@ -1,0 +1,16 @@
+STEP 2 | products | before: 50 | after: 47 | removed: 3
+Empty cells: 3 | absent cells: 1 | whitespace-only cells: 0
+Dropped CSV line numbers: [16, 26, 45]
++----------+------------+-----------+--------+
+|product_id|product_name|category   |price   |
++----------+------------+-----------+--------+
+|1         |Product_1   |Beauty     |8.300000|
+|2         |Product_2   |Home       |8.300000|
+|3         |Product_3   |Electronics|9.200000|
+|4         |Product_4   |Electronics|2.600000|
+|5         |Product_5   |Electronics|9.400000|
+|6         |Product_6   |Sports     |8.700000|
+|7         |Product_7   |Beauty     |8.200000|
+|8         |Product_8   |Sports     |1.000000|
++----------+------------+-----------+--------+
+only showing top 8 rows

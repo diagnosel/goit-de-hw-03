@@ -1,0 +1,42 @@
+{
+  "p1_products.jpg": {
+    "sha256": "722c9e6d7155e9304db6e33bddae483c76608b4982f867b6b39cacdd061a40dc",
+    "output_sha256": "2348ab24fd7fe80078c720466bf2235dabffbcbe1eef6880dcf6e036fad25d52"
+  },
+  "p1_purchases.jpg": {
+    "sha256": "9448cbcb59b9987c84d572285d1b5c77d8d75f8bc40dff5b31c34185caec0597",
+    "output_sha256": "4400a8936388dda119631d214465550f2d7321e59189b726622201b700a6e523"
+  },
+  "p1_users.jpg": {
+    "sha256": "9060acbf2671122b5f5ce22861430e7318c02b15834e614ed1c54b79ad135cdc",
+    "output_sha256": "8d1c9113a4ce21b27968e6c9b772268f55df6e2c213c3a2f7eb31076061da27a"
+  },
+  "p2_products.jpg": {
+    "sha256": "5405e78c56d469a0b6d00d25cfd504f94ab5c971ff3a6c0e7675361cad23ec68",
+    "output_sha256": "8b0d1faee7a24d80b8feadde6dd8755d58d8e080ef95f779a22b76fec8773c46"
+  },
+  "p2_purchases.jpg": {
+    "sha256": "1358a475d8729692467f93a646de909b2b9a5f99902ae782e5c8627292796174",
+    "output_sha256": "6f23c58ce15edd4e771dda4457917265bfb828d465840a64b0cb7e99ae7fd4c8"
+  },
+  "p2_users.jpg": {
+    "sha256": "79f48c2c90782cf4875af14057b254319dca165905226e1e54ada72e6b1dd3b6",
+    "output_sha256": "3fca6c6acfce5152fa65694a8aa3eefc051a97c75423ed39f27ba69ab943b1c6"
+  },
+  "p3_categories.jpg": {
+    "sha256": "59f4a2b0a1086c51cadcbdde339b733126664f32f824f0656646f4a1de30f703",
+    "output_sha256": "20ab6ebe14919c174cfe8bd3454e6eebfa9f7a50d6ac19426802db08868be961"
+  },
+  "p4_age_18_25.jpg": {
+    "sha256": "8572f0a44b78f64d9b5b6883569c4826a626e24148c9b83d43595656d33aa684",
+    "output_sha256": "22f48cde0cc1b6ecc44e757ed488be829930c57557eea89b05c7b3a419d633d4"
+  },
+  "p5_percentages.jpg": {
+    "sha256": "646cf7c591568a9d617809fdcc7bb4603b16c829e8286c4e170cd567173746f8",
+    "output_sha256": "c1a105a8879da27e65fb4b96339656a161c3796c843ef38207d03ef70925d547"
+  },
+  "p6_top3.jpg": {
+    "sha256": "97df17ca95948e2edf21df4edfda5338d848fae3dd3ef3042e9ca050fb1675a4",
+    "output_sha256": "1cf9390e8b6e5b481e2b407713238980f9b3a6e2f7f0cc4a0e16384da9df94bf"
+  }
+}

@@ -1,0 +1,9 @@
+STEP 6 | top 3 | amount descending, category ascending
++-----------+------------+----------+
+|category   |total_amount|percentage|
++-----------+------------+----------+
+|Home       |361.100000  |29.90     |
+|Sports     |310.500000  |25.71     |
+|Electronics|249.600000  |20.67     |
++-----------+------------+----------+
+

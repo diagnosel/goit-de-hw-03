@@ -1,0 +1,21 @@
+STEP 1 | products | rows: 50 | first 8 rows
+Columns: product_id, product_name, category, price
+root
+ |-- product_id: integer (nullable = true)
+ |-- product_name: string (nullable = true)
+ |-- category: string (nullable = true)
+ |-- price: decimal(18,6) (nullable = true)
+
++----------+------------+-----------+--------+
+|product_id|product_name|category   |price   |
++----------+------------+-----------+--------+
+|NULL      |Product_25  |Electronics|7.400000|
+|1         |Product_1   |Beauty     |8.300000|
+|2         |Product_2   |Home       |8.300000|
+|3         |Product_3   |Electronics|9.200000|
+|4         |Product_4   |Electronics|2.600000|
+|5         |Product_5   |Electronics|9.400000|
+|6         |Product_6   |Sports     |8.700000|
+|7         |Product_7   |Beauty     |8.200000|
++----------+------------+-----------+--------+
+only showing top 8 rows

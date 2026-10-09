@@ -1,0 +1,131 @@
+{
+  "sources": {
+    "users": {
+      "before": 100,
+      "empty_cells": 5,
+      "absent_cells": 0,
+      "whitespace_cells": 0,
+      "dropped_lines": [
+        31,
+        35,
+        82,
+        95,
+        100
+      ],
+      "duplicate_keys": {},
+      "price_decimal_places": null,
+      "sha256": "5878d1acaef795ba730cd7bb0dd039d96466675652e480794932b0ca554e26e2",
+      "after": 95
+    },
+    "purchases": {
+      "before": 200,
+      "empty_cells": 5,
+      "absent_cells": 0,
+      "whitespace_cells": 0,
+      "dropped_lines": [
+        42,
+        51,
+        97,
+        151,
+        200
+      ],
+      "duplicate_keys": {},
+      "price_decimal_places": null,
+      "sha256": "a1510ecc0b773e9924694b8197a364569c8e9ff36e50f2cb6df7697a67da32d3",
+      "raw_references": {
+        "missing_user_id": [
+          "41",
+          "150"
+        ],
+        "missing_product_id": [
+          "199"
+        ],
+        "user_id_not_found": [],
+        "product_id_not_found": [
+          "74",
+          "113",
+          "115",
+          "185"
+        ]
+      },
+      "after": 195
+    },
+    "products": {
+      "before": 50,
+      "empty_cells": 3,
+      "absent_cells": 1,
+      "whitespace_cells": 0,
+      "dropped_lines": [
+        16,
+        26,
+        45
+      ],
+      "duplicate_keys": {},
+      "price_decimal_places": 1,
+      "sha256": "d1dd5db8beefcd11c72c34a8ca10f3ec995f056d3b6cd2eb31e1d2972b176dc9",
+      "after": 47
+    }
+  },
+  "joins": {
+    "clean_purchases": 195,
+    "without_product": [
+      5,
+      7,
+      33,
+      74,
+      113,
+      115,
+      163,
+      185
+    ],
+    "without_user": [
+      19,
+      69,
+      83,
+      118,
+      130,
+      137,
+      143,
+      164,
+      186
+    ],
+    "with_product": 187,
+    "with_product_and_user": 178,
+    "age_18_25": 32
+  },
+  "samples": [
+    {
+      "purchase_id": 2,
+      "user_id": 93,
+      "age": 25,
+      "product_id": 37,
+      "product_name": "Product_37",
+      "category": "Clothing",
+      "quantity": 8,
+      "price": "6.000000",
+      "purchase_amount": "48.000000"
+    },
+    {
+      "purchase_id": 11,
+      "user_id": 88,
+      "age": 25,
+      "product_id": 41,
+      "product_name": "Product_41",
+      "category": "Sports",
+      "quantity": 8,
+      "price": "5.900000",
+      "purchase_amount": "47.200000"
+    },
+    {
+      "purchase_id": 18,
+      "user_id": 88,
+      "age": 25,
+      "product_id": 49,
+      "product_name": "Product_49",
+      "category": "Sports",
+      "quantity": 3,
+      "price": "9.700000",
+      "purchase_amount": "29.100000"
+    }
+  ]
+}
